@@ -1,0 +1,134 @@
+@media screen and (max-width: 1200px) {
+  .responsive-banner {
+    display: none;
+  }
+
+  .responsive-container-form {
+    height: 800px;
+    width: 80%;
+    margin: 8px auto;
+  }
+
+  .responsive-container-form .responsive-container-form-header {
+    margin-top: 50px;
+  }
+
+  .responsive-container-form .responsive-container-inputs {
+    margin-top: 80px;
+  }
+
+  .responsive-container-form .responsive-container-checkbox {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .responsive-header {
+    padding: 0 50px;
+  }
+
+  .responsive-banner {
+    display: none;
+  }
+
+  .responsive-main {
+    padding: 0 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .responsive-container-form {
+    height: 800px;
+    width: 80%;
+    margin: 8px auto;
+  }
+
+  .responsive-container-form .responsive-container-form-header {
+    margin-top: 50px;
+  }
+
+  .responsive-container-form .responsive-container-inputs {
+    margin-top: 80px;
+  }
+
+  .responsive-container-form .responsive-container-checkbox {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .responsive-header {
+    padding: 0 50px;
+  }
+
+  .responsive-banner {
+    display: none;
+  }
+
+  .responsive-main {
+    padding: 0 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .responsive-container-form {
+    height: 700px;
+    width: 80%;
+    margin: 8px auto;
+  }
+
+  .responsive-container-form .responsive-container-form-header {
+    margin-top: 50px;
+  }
+
+  .responsive-container-form .responsive-container-inputs {
+    margin-top: 80px;
+  }
+
+  .responsive-container-form .responsive-container-checkbox {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .responsive-header {
+    padding: 8px;
+  }
+
+  .responsive-banner {
+    display: none;
+  }
+
+  .responsive-main {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .responsive-container-form {
+    height: 700px;
+    width: 100%;
+    margin: 4px 0;
+    margin-right: 18px;
+  }
+
+  .responsive-container-form .responsive-container-form-header {
+    margin-top: 50px;
+  }
+
+  .responsive-container-form .responsive-container-inputs {
+    margin-top: 80px;
+  }
+
+  .responsive-container-form .responsive-container-checkbox {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+  }
+}
