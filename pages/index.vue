@@ -7,51 +7,15 @@ const email = ref("");
 const password = ref("");
 const loading = ref(false);
 
-const dbAuth = {
-  users: [
-    {
-      id: 1,
-      name: "João",
-      email: "joao@mail.com",
-      password: "123456",
-    },
-    {
-      id: 1,
-      name: "Breno",
-      email: "breno@mail.com",
-      password: "654321",
-    },
-    {
-      id: 1,
-      name: "Victoria",
-      email: "victoria@mail.com",
-      password: "852456",
-    },
-  ],
-};
-
 function handleLogin() {
-  loading.value = true;
-
-  const user = {
-    email: email.value,
-    password: password.value,
-  };
-
-  const userExists = dbAuth.users.find(
-    (u) => u.email === user.email && u.password === user.password
-  );
-
-  if (userExists) {
+  if (email.value && password.value) {
+    loading.value = true;
     setTimeout(() => {
+      localStorage.setItem("email", email.value);
+      localStorage.setItem("password", password.value);
+      router.push("/openHome");
       loading.value = false;
-    }, 2000);
-    router.push("/home");
-  } else {
-    setTimeout(() => {
-      loading.value = false;
-    }, 2000);
-    console.error("Usuário não encontrado");
+    }, 1000);
   }
 }
 </script>
